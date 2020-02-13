@@ -1,0 +1,43 @@
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #123456;
+  left: 17.25px;
+  width: 25px;
+  height: 25px;
+  z-index: 400;
+}
+ul.timeline > li > span.header  {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+ul.timeline > li > span.date  {
+  font-size: 1.1em;
+}
+
+.bg {
+  background-color: #123456;
+  color: white;
+}
