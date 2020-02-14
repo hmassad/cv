@@ -54,39 +54,42 @@ export default () => {
                   <span className="header">Flame Factory, Dueño</span>
                   <span className="float-right date">2019-PRESENTE</span>
                   <p>Consultoría en desarrollo de software, desarrollo de software.</p>
-                  <div className="">
-                    <div style={s.project}>
-                      <div style={s.projectHeader}>IACON Smart Factory para <a href="http://iacon.com.ar">IACON</a>, empresa de ingeniería para procesos industriales</div>
-                      Solución de IoT para toma de datos de manufactura en tiempo real.<br/>
-                      <FontAwesomeIcon icon={faBullseye} /> Salida a producción Marzo 2020<br/>
-                      <FontAwesomeIcon icon={faWrench} /> Java Spring Boot, Apache Kafka, React, Elasticsearch, React-Native, MySQL, Arduino, Raspberry.
-                    </div>
-                    <div style={s.project}>
-                      <div style={s.projectHeader}>Storyfire.com <a href="http://storyfire.com">Storyfire</a>, red social de contenido de usuarios de USA</div>
-                      Consultoría sobre tecnología de backend.<br />
-                      <FontAwesomeIcon icon={faBullseye} /> Soportar la creciente carga de usuarios (1M diarios, con aumento de 10% mensual) sin pérdida de funcionalidad.<br/>
-                      <FontAwesomeIcon icon={faBullseye} /> Implementar cobro, gamificación y pay-per-view de contenido.<br/>
-                    </div>
-                    <div style={s.project}>
-                      <div style={s.projectHeader}>Scrapper para <a href="http://repuestoshonda.com.ar">Sarcro Import</a>, importadora de autopartes</div>
-                      Servicio de análisis de oferta (precios, plaza) de autopartes.
-                      Extracción de precios de Mercadolibre, OLX, Facebook Marketplace e input manual.
-                      Search Engine Optimization. Integrado stock con mercadolibre y mercadoshops.
-                      Integración con factura electrónica.<br />
-                      <FontAwesomeIcon icon={faBullseye} /> Java Spring Boot, React, Elasticsearch.<br />
-                      <FontAwesomeIcon icon={faTrophy} /> Duplicado el tráfico a la página web, reducido tráfico no relevante, triplicada la cantidad de ventas en mercadolibre
-                    </div>
-                    <div style={s.project}>
-                      <div style={s.projectHeader}>Template de extensión de chrome para <a href="https://trysmarty.com">trysmarty.com</a></div>
-                      <FontAwesomeIcon icon={faBullseye} /> Desarrollo de boilerplate de extensión de chrome. <a href="https://github.com/hmassad/chrome-extension-webpack-boilerplate">Repositorio público</a>
-                    </div>
+                  <div style={s.project}>
+                    <div style={s.projectHeader}>IACON Smart Factory para <a href="http://iacon.com.ar">IACON</a>, empresa de ingeniería para procesos industriales</div>
+                    Solución de IoT para toma de datos de manufactura en tiempo real.<br/>
+                    <FontAwesomeIcon icon={faBullseye} /> Salida a producción Marzo 2020<br/>
+                    <FontAwesomeIcon icon={faWrench} /> AWS, Java, Apache Kafka, Spring Cloud, React, Elasticsearch, React-Native, MySQL, Arduino, Raspberry.
+                  </div>
+                  <div style={s.project}>
+                    <div style={s.projectHeader}>Storyfire.com <a href="http://storyfire.com">Storyfire</a>, red social de contenido de usuarios de USA</div>
+                    Consultoría sobre tecnología de backend.<br />
+                    <FontAwesomeIcon icon={faBullseye} /> Soportar la creciente carga de usuarios (1M diarios, con aumento de 10% mensual) sin pérdida de funcionalidad.<br/>
+                    <FontAwesomeIcon icon={faBullseye} /> Implementar cobro, gamificación y pay-per-view de contenido.<br/>
+                  </div>
+                  <div style={s.project}>
+                    <div style={s.projectHeader}>Scrapper para <a href="http://repuestoshonda.com.ar">Sarcro Import</a>, importadora de autopartes</div>
+                    Servicio de análisis de oferta (precios, plaza) de autopartes.
+                    Extracción de precios de Mercadolibre, OLX, Facebook Marketplace e input manual.
+                    Search Engine Optimization. Integrado stock con mercadolibre y mercadoshops.
+                    Integración con factura electrónica.<br />
+                    <FontAwesomeIcon icon={faBullseye} /> Java, React, Elasticsearch<br />
+                    <FontAwesomeIcon icon={faTrophy} /> Duplicado el tráfico a la página web, reducido tráfico no relevante, triplicada la cantidad de ventas en mercadolibre
+                  </div>
+                  <div style={s.project}>
+                    <div style={s.projectHeader}>Template de extensión de chrome para <a href="https://trysmarty.com">trysmarty.com</a></div>
+                    <FontAwesomeIcon icon={faBullseye} /> Desarrollo de boilerplate de extensión de chrome. <a href="https://github.com/hmassad/chrome-extension-webpack-boilerplate">Repositorio público</a>
                   </div>
                 </li>
                 <li>
                   <span className="header">Mitrol, CTO</span>
                   <span className="float-right date">2006-2019</span>
                   <p>Empresa multinacional de tecnología especializada en soluciones para centros de contacto.</p>
-                  <p>Desafíos y Logros</p>
+                  <div style={s.project}>
+                    <div style={s.projectHeader}>Mantenimiento del producto core de la compañía, compuesto de centrales telefónicas (SIP y TDM) y aplicaciones de control y gestión en tiempo real.<br/>
+                    Los clientes de Mitrol son contact centers (BPO) o empresas con contact centers. En Argentina los más destacados son Aerolíneas Argentinas, Banco Nación, Banco Provincia, Hospital Alemán, GIRE (Rapipago), Credil y aproximadamente 30 empresas de cobranzas.</div>
+                    <FontAwesomeIcon icon={faBullseye} /> C#, Java, Delphi, C, , Spring Cloud, React<br />
+                    <FontAwesomeIcon icon={faTrophy} /> Duplicado el tráfico a la página web, reducido tráfico no relevante, triplicada la cantidad de ventas en mercadolibre
+                  </div>
                 </li>
                 <li>
                   <span className="header">Ustatic, Investigador en Electrónica</span>
@@ -94,7 +97,7 @@ export default () => {
                   <p>
                       Investigación en el campo de la electrónica para patentes de invención de la empresa.
                       Investigación y desarrollo en el campo de la electrónica para aplicaciones específicas de producción masiva y prototipado.
-                      Logros: venta de patente de iluminación por led a OSRAM que se utilizó en alumbrado público</p>
+                      <FontAwesomeIcon icon={faTrophy} /> desarrollo, registro y venta de patente de iluminación por led a OSRAM que se utilizó en alumbrado público</p>
                 </li>
                 <li>
                   <span className="header">Mitrol, Soporte técnico de locutorios y telecentros</span>
@@ -109,8 +112,7 @@ export default () => {
               </ul>
             </Col>
           </Row>
-          <Row style={s.footer}>
-          </Row>
+          <Row style={s.footer}/>
         </Col>
       </Row>
     </Container>
